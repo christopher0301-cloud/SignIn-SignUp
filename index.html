@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign In</title>
+      <script src="https://cdn.tailwindcss.com"></script>
+    <link rel ="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page-wrapper">
+      <div class="welcome-side">
+        <h1>Welcome Back!</h1>
+        <p>To keep connected with us please login with your personal info</p>
+      </div>
+      <!-- Sign In Container -->
+      <div class="Sign-In-container" id="sign-in-container">
+      <form>
+      <h1>Sign In</h1>
+      <div class="logo-row">
+      <img src="google.png" alt="Google Logo" class="google-logo"/>
+      <img src="apple.png" alt="Apple Logo" class="apple-logo"/>
+      <img src="twitter.png" alt="Twitter Logo" class="twitter-logo"/>
+      </div>
+      <input type="text" placeholder="Username" required/>
+      <input type="password" placeholder="Password" required/>
+      <p>New user? <a href="#" class="text-blue-700">Sign up</a></p>
+      <button type="submit" class="btn">Sign In</button>
+      </div>
+      <!-- Sign Up Container -->
+      <div class="Sign-Up-container hidden" id="sign-up-container">
+        <form>
+        <h1>Sign Up</h1>
+       <div class="logo-row">
+      <img src="google.png" alt="Google Logo" class="google-logo"/>
+      <img src="apple.png" alt="Apple Logo" class="apple-logo"/>
+      <img src="twitter.png" alt="Twitter Logo" class="twitter-logo"/>
+      </div>
+      <input type ="text" placeholder="First Name" required/>
+      <input type="text" placeholder="Last Name" required/> 
+      <input type="email" placeholder="Email" required/>
+      <input type="text" placeholder="Username" required/>
+      <input type="password" placeholder="Password" required/>
+    <p>Already have an account? <a href="#" class="text-blue-700">Sign in</a></p>
+      <button type="submit" class="btn">Sign Up</button>
+      </form>
+    </div>
+  </div>
+  <script src="main.js"></script>
+  </body>
+</html>
